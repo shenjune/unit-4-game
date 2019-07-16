@@ -7,12 +7,12 @@
 }
 
 #gameTitle {
-    font-size: 100px;
     color: white;
     background-color: black;
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+
 }
-
-
 
 #magicNum   {
     padding: 1%;

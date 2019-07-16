@@ -1,12 +1,12 @@
 $(document).ready(function(){
-    // set up magic number variable between 19-120
+    // set up match number variable between 19-120
     var magicNumber = Math.floor((Math.random() * 101) + 19);
     
-    // link magic number variable show to html
+    // link match number variable show to html
     $('#num').html(magicNumber);
     
     
-    //set up 4 variables for the gems.  the values should be between 1 -12
+    //set up 4 variables for the cats.  the values should be between 1 -12
     var cat1 = Math.floor((Math.random() * 11 + 1));
     
     var cat2 = Math.floor((Math.random() * 11 + 1));
@@ -95,8 +95,6 @@ $(document).ready(function(){
         });
     })
      
-    //write if statement for wins (total = magic number)
-    
-    //write else statement for losses (total > magic number)
+ 
     
     
