@@ -1,0 +1,39 @@
+
+
+.container {
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    line-height: 5;
+}
+
+#gameTitle {
+    font-size: 100px;
+    color: white;
+    background-color: black;
+}
+
+
+
+#magicNum   {
+    padding: 1%;
+    font-size: 50px;
+}
+
+#instructions  {
+    padding: 1%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+
+#tally    {
+    padding: 1%;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 30px;
+}
+
+#userTotal    {
+    font-size: 50px;
+    color: teal;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}

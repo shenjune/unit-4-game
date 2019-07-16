@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cat Collector</title>
-    <!--jQuery-->
+
+    <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
     <!-- google font-->
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-   
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+
     <!-- reset CSS and style CSS -->
     <link rel="reset" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -25,43 +26,50 @@
 <body>
     <div class="container">
 
+        <div class="row" id="gameTitle">
+            <div class="col-12">
+                <h1><strong>Cat Collector Game</strong></h1>
+            </div>
+        </div>
+
+
         <div class="row" id="magicNum">
             <div class="col-12">
-                <h1>Magic Number : <span id="num"></span></h1>
+                <h1><strong>Match this Number:</strong> <span id="num"></span></h1>
             </div>
         </div>
 
         <div class="row" id="instructions">
             <div class="col-12">
-                <p>Each cat is assigned a number value. Click on the cats until you reach the magic number. Collect as many cats as you can!</p>
+                <p>Each cat is assigned a number value. Click on the cats until you reach the number above. Match the numbers to win lots of cats!!</p>
             </div>
         </div>
 
-        <div class="row" id="gems">
+        <div class="row" id="cats">
             <div class="col-3">
-                <img id="Cat1" src="assets/images/Cat1.jpg" class="img-fluid" alt="First cat face">
+                <img id="cat1" src="assets/images/Cat1.jpg" class="img-fluid" alt="First cat face">
             </div>
             <div class="col-3">
-                <img id="Cat2" src="assets/images/Cat2.jpg" class="img-fluid" alt="Second cat face">
+                <img id="cat2" src="assets/images/Cat2.jpg" class="img-fluid" alt="Second cat face">
             </div>
             <div class="col-3">
-                <img id="Cat3" src="assets/images/Cat3.jpg" class="img-fluid" alt="Third cat face">
+                <img id="cat3" src="assets/images/Cat3.jpg" class="img-fluid" alt="Third cat face">
             </div>
             <div class="col-3">
-                <img id="Cat4" src="assets/images/Cat4.jpg" class="img-fluid" alt="Final cat face">
+                <img id="cat4" src="assets/images/Cat4.jpg" class="img-fluid" alt="Final cat face">
             </div>
         </div>
 
         <div class="row" id="tally">
             <div class="col-4">
-                <p>wins <span id="wins"></span></p>
+                <p>WINS <span id="wins"></span></p>
             </div>
             <div class="col-4">
-                <p>total score <span id="userTotal"></span></p>
+                <p><strong>CURRENT SCORE: </strong><span id="userTotal"></span></p>
             </div>
 
             <div class="col-4">
-                <p>losses <span id="losses"></span></p>
+                <p>LOSSES <span id="losses"></span></p>
             </div>
         </div>
     
